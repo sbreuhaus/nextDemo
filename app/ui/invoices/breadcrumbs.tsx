@@ -1,6 +1,7 @@
 import { clsx } from 'clsx';
 import Link from 'next/link';
-import { lusitana } from '@/app/ui/fonts';
+import { fonts } from '@/app/ui/fonts';
+const { lusitana } = fonts;
 
 interface Breadcrumb {
   label: string;
